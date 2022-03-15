@@ -1,0 +1,10 @@
+name: My custom job
+on: push
+jobs:
+  custom:
+    name: Custom
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sachalifs/custom-action
+        with:
+          args: "foobar"
