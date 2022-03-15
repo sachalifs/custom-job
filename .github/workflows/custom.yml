@@ -5,6 +5,6 @@ jobs:
     name: Custom
     runs-on: ubuntu-latest
     steps:
-      - uses: sachalifs/custom-action
+      - uses: sachalifs/custom-action@main
         with:
           args: "foobar"
